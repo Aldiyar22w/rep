@@ -1,0 +1,439 @@
+.container{
+    width: 100%;
+    max-width:1280px ;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-color: #0E0E2C;
+}
+/*header-------------------------------------------------------------------------------------------------*/
+.header-inner{
+    padding-top:52px ;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-right: 53px;
+
+}
+.button{
+  color: #FFBE0B;  
+  font-size:16px ;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-decoration: none;
+  border: 1px solid #FFBE0B;
+border-radius: 10px;
+padding: 13px 30px;
+margin-right: 25px;
+}
+.butt{
+    color: #0E0E2C;
+    font-size:16px ;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-decoration: none;
+    background: #FFBE0B;
+border-radius: 10px;
+padding: 13px 30px;
+}
+.header-title {
+    padding-top: 250px;
+}
+.header-title h3{
+    font-size:14px ;
+    font-weight:400 ;
+    line-height: 25.2px;
+    color:#3A86FF ;
+    background-color: #172656;
+    width: 200px;
+    padding: 5px;
+}
+.header-title h1{
+    padding-top: 20px;
+    font-size:62px ;
+    font-weight: 700;
+    line-height: 80.06px;
+    color: white;
+   padding-bottom: 35px;
+}
+.header-title p{
+    font-size:16px ;
+    font-weight: 400;
+    line-height: 28.8px;
+    color:#868695 ;
+    padding-bottom: 40px;
+}
+.input-header{
+    display: flex;
+    align-items: center;
+    border: 1px solid #626276;
+border-radius: 18px;
+width: 400px;
+height: 60px;
+}
+.input-header img{
+    padding-right: 17px;
+}
+.but{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #0E0E2C;
+    text-decoration: none;
+    background: #FFBE0B;
+border-radius: 10px;
+ padding: 10px 20px;
+}
+.inp{
+    font-size:13px ;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: #626276;
+    text-decoration: none;
+    padding-right: 139px;
+}
+.check{
+    display: flex;
+
+}
+.check-header{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.check-header img{
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.check-header p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #ffff;
+    padding-bottom: 15px;
+    padding-right: 40px;
+
+}
+.header-display{
+    display: flex;
+    justify-content: space-between;
+}
+.header-boy{
+    padding-top: 43px;
+    position: absolute;
+
+}
+.header-task{
+    position: absolute;
+    right: 23px;
+    top:500px;
+}
+.header-girl{
+    position: absolute;
+    right: 600px;
+    top:700px ;
+}
+/*------------------------------count------------------------------------------------*/
+.count{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.image{
+    padding-right: 40px;
+}
+.counts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.count-text h3{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25.2px;
+   color: #3A86FF;
+   background-color: #172656;
+   width: 170px;
+   padding: 7px;
+}
+.count-text h1{
+    font-size:48px ;
+    font-weight:700 ;
+    line-height: 62.4px;
+    color:white ;
+    padding-top: 18.3px;
+    padding-bottom: 70px;
+}
+.count-display{
+    display: flex;
+    justify-content: space-around;
+}
+.count-dis h1{
+    color: #FFBE0B;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+}
+.count-dis p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #868695;
+}
+.count-disp h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+    color: #FB5607;
+}
+.count-disp p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #868695;
+}
+.br-count{
+    border-left: 1px solid #626276;
+}
+/*---------------------------------card------------------------------------------------------------*/
+.card{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.card-text h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #3A86FF;
+    background-color: #172656;
+    width: 110px;
+    padding: 5px;
+    text-align: center;
+}
+.card-text h1{
+    font-size:48px ;
+    font-weight:700 ;
+    line-height: 62.4px;
+    color:white ;
+    padding-top: 18.3px;
+    padding-bottom: 35px;
+}
+.card-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #868695;
+}
+
+.card-s{
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.card-s h1{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+}
+.card-s p{
+    font-size: 14px;
+    line-height: 25.2px;
+    font-weight: 400;
+    color: #868695;
+    padding-top: 18px;
+    padding-bottom: 26px;
+}
+.card-z{
+    background-image: url(./photo/Rectangle\ 15.png);
+    width: 237.4px;
+    height: 210.44px;
+    padding: 15px;
+    padding-top: 15px;
+}
+.card-z h1{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+}
+.card-z p{
+    font-size: 14px;
+    line-height: 25.2px;
+    font-weight: 400;
+    color: #868695;
+    padding-top: 18px;
+}
+/*---------------------------bang---------------------------------------------------------------------*/
+.bang{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bang-text h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #3A86FF;
+    background-color: #172656;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+.checker{
+    padding-top: 30px;
+}
+.bang-text h1{
+    font-size:48px ;
+    font-weight:700 ;
+    line-height: 62.4px;
+    color: white;
+    padding-top: 18.3px;
+    padding-bottom: 90px;
+}
+.plus{
+    display: flex;
+    align-items: center;
+
+}
+.plus img{
+    padding-right: 10px;
+}
+.plus h1{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color:white ;
+}
+.plus-p p{
+    font-size:14px ;
+    line-height: 25.2px;
+    font-weight:400 ;
+    color: #868695;
+    padding-top: 14px;
+}
+.baang{
+    display: flex;
+    justify-content: space-between;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.inside{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.inside-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inside-text h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #3A86FF;
+    background-color: #172656;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.inside-text h1{
+    font-size:48px ;
+    font-weight:700 ;
+    line-height: 62.4px;
+    color: white;
+    padding-top: 18.3px;
+    padding-bottom: 40px;
+}
+.inside-text p{
+   font-size: 14px; 
+   line-height:28.8px;
+   font-weight:400;
+   color: #868695;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+.foot{
+    padding-top: 100px;padding-bottom: 100px;
+}
+.foot-text{
+    align-items: center;
+    text-align: center;
+}
+.foot-text h1{
+    font-size:48px ;
+    font-weight:700 ;
+    line-height: 62.4px;
+    color: white;
+    padding-bottom: 18px;
+
+}
+.foot-text p{
+    font-size:16px ;
+    line-height:28.8px ;
+    font-weight:400 ;
+    color:#868695 ;
+   padding-bottom: 50px;  
+}
+.input-foot{
+    text-align: center;
+}
+.inputs{
+    border: 1px solid #626276;
+border-radius: 18px;
+ width: 450.65px;
+ height: 40.94px;
+ background-color: #0E0E2C;
+ font-size: 13px;
+ font-weight: 400;
+ line-height: 24.3px;
+ padding: 10px;
+
+}
+.buts{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #0E0E2C;
+    text-decoration: none;
+    background: #FFBE0B;
+border-radius: 10px;
+ padding: 10px 20px;
+ position: absolute;
+ right:730px;
+bottom: -3810px;
+}
+/*----------------------------------------------------------------------*/
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.masage{
+    align-items: center;
+
+}
+.masage img{
+    padding-right: 25px;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
